@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+        <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+        <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+    <body class="body">
+        <div id="react-container"></div>
+
+
+       <script type="text/babel">
+            
+            ReactDOM.render(
+
+
+                <div id="con-react"><div class="bill-info"><h2>Billing & Accounts</h2><div class="cont-info">
+                    <img class="img" src="pic/image1.jpg"></img><div class="txt-info"><h5>Human Resource Module</h5><p>Manage your human resource in one place with ease and do much more...</p><p><h6>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for as low as &#8358; 40,000 NGN (per employee)</h6></p></div></div>
+                    <div class="cont-info">
+                        <img class="img" src="pic/image2.jpg"></img><div class="txt-info"><h5>Payroll Module</h5><p>Manage your payroll and salary payment in one place with ease and do much more...</p><p><h6>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for as low as &#8358; 60,000 NGN (per employee)</h6></p></div></div>
+                        <div class="cont-info"><img class="img" src="pic/image3.jpg"></img><div class="txt-info"><h5>Leave Management Module</h5><p>Manage your human resource in one place with ease and do much more...</p><p><h6>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for as low as &#8358; 30,000 NGN (per employee)</h6></p></div></div></div><div id="left-con"><h4>CloudletHR</h4>
+                    <p><h5>Industry tested No.1 software solution for mordern human resource providers over the world</h5></p>
+                    <div id="center-con"></div><h2>Paying</h2><h1>&#8358; 40,000 NGN</h1><h6>for 300 employees</h6>
+                    <div id="con-button"><button class="primary btn" id="acceptBtn">Make Payment</button></div>
+                    
+                    </div></div>,
+
+                document.getElementById('react-container')
+            )
+         
+       </script>
+
+
+    </body>
+</html>

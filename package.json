@@ -1,0 +1,12 @@
+{
+    "name": "junior-software-engineering",
+    "version": "1.0.0",
+    "description": "Project for software engineering\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D junior \u001b[software \u001b[C\u001b[C\u001b[C\u001bengineering internship",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Anthony Mekwunye",
+    "license": "ISC"
+  }
+  
